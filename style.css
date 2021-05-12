@@ -1,0 +1,49 @@
+/* *{
+    border:2px solid black;
+} */
+img{
+    border:2px solid black; 
+    border-radius: 20px;
+    justify-content: space-evenly;
+}
+
+.menu{
+    margin-bottom: 100px;
+    margin-left: 500px;
+    
+}
+.header{
+    border:2px solid red;
+    background-color: royalblue;
+    display:flex;
+    justify-content: space-between;
+     margin-bottom: 50px; 
+    padding: 0px;
+}
+
+.grid{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+}
+
+a:link{
+    color:white
+}
+
+a:visited{
+    color:yellow;
+}
+
+.origami:hover{
+
+    transform: scale(1.2);
+}
+
+.item:hover p{
+    opacity:1;
+}
+
+.item:hover img{
+    opacity:0.33;
+}
